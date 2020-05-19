@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    background-image: url("../image/main-bg.jpg");
 }
 
 .containor {
@@ -28,26 +29,45 @@ body div.container {
   align-items: left;
 }
 
+.wrapper {
+  min-height: 100vh;
+}
+
 footer {
+  width: 100%;
   background-color: #330000;
   color: #ffffff;
   text-align: center;
+  padding: 30px 0;
+  position: absolute;
+  bottom: 0;
 }
 
-.generalNavigation ul li {
+
+
+.indexHeaderBox ul li {
   float: right;
   width: 120px;
   height: 50x;
+  text-align: center;
+  padding-right: 3em;
 }
 
-.generalNavigation ul li {
+.indexHeaderBox ul li {
 list-style-type: none;
-color: #330000;
+font-size: 1.5em;
 }
 
-.generalNavigation :hover {
+a {
+  color: #330000;
+  text-decoration: none;
+
+}
+
+.indexHeaderBox :hover {
 color: #00CED1;
 }
+
 
 .main {
     margin-bottom: 10px;
@@ -68,8 +88,13 @@ main {
   line-height: 6em;
 }
 
-.maintitle {
+.main-title {
   font-size: 100px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  display: table;
+  line-height: 500px;
 }
 
 .main-text {
