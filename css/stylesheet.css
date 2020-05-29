@@ -12,13 +12,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    background-image: url("../image/main-bg.jpg");
 }
 
 .containor {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 50px;
   align-items: center;
 }
 
@@ -30,29 +29,33 @@ body div.container {
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
 }
 
-footer {
+.footer {
   width: 100%;
   background-color: #330000;
   color: #ffffff;
   text-align: center;
-  padding: 30px 0;
-  position: absolute;
-  bottom: 0;
+  margin-top: auto;
+}
+
+.index-body{
+  background-image: url("../image/main-bg.jpg");
 }
 
 .indexHeaderBox {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .indexHeaderBox ul li {
-  float: right;
-  width: 120px;
-  height: 50x;
-  text-align: center;
-  padding-right: 3em;
+  float: left;
+  width: 250px;
+  height: 70px;
+  text-align: right;
+  padding-right: 1em;
 }
 
 .indexHeaderBox ul li {
@@ -70,48 +73,27 @@ a {
 color: #00CED1;
 }
 
-
-.main {
-    margin-bottom: 10px;
-  }
-  .main,
-  .side {
-    padding: 2%;
-    border-radius: 10px
+.logo {
+  margin-left: 100px;
+  float: left;
   }
 
-  .logo {
-    margin-left: 100px;
-    float: left;
-  }
-
-main {
+.indexBox {
   text-align: center;
-  line-height: 6em;
 }
 
 .main-title {
   font-size: 100px;
   text-align: center;
-  margin: 0 auto;
+  margin-top: 100px;
   width: 100%;
   display: table;
-  line-height: 500px;
 }
 
 .main-text {
   text-align: center;
-}
 
-  @media ( min-width : 600px ){
-      .flexbox {
-        display: -webkit-flex;
-        display: flex;
-      }
-    .main {
-      margin: 0 10px 0 0;
-    }
-  }
+}
 
 .index-button {
   text-align: center;
@@ -129,17 +111,40 @@ main {
   border-radius: 5px;
 }
 
- .updateTime {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #00CED1;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    text-align:center;
-    line-height: 1em;
-    color: #ffffff;
+.main-box {
+  background: #fcc;
+  margin-bottom: 10px;
+}
+.side-box {
+  background: #fea;
+}
+.main-box,
+.side-box {
+  padding: 2%;
+  border-radius: 10px
+}
+
+@media ( min-width : 600px ){
+    .flexbox {
+      display: -webkit-flex;
+      display: flex;
+    }
+  .main-box {
+    margin: 0 10px 0 0;
+  }
+}
+
+.updateTime {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #00CED1;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  text-align:center;
+  line-height: 1em;
+  color: #ffffff;
  }
 
 .date {
@@ -164,4 +169,15 @@ main {
 
 time{
   line-height: 10px;
+}
+
+.news-main {
+  text-align: left;
+  font-size: 2em;
+  display: flex;
+}
+
+.news-wall {
+  height: 70%;
+  width: 70%;
 }
