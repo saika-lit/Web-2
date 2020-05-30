@@ -14,11 +14,47 @@ body {
     height: 100vh;
 }
 
+.indexHeaderBox {
+  margin-top: 60px;
+}
+
+.indexHeaderBox ul li {
+  float: left;
+  width: 75px;
+  height: 70px;
+  text-align: left;
+  padding-right: 1em;
+}
+
+.indexHeaderBox ul li {
+list-style-type: none;
+font-size: 1.5em;
+}
+
+a {
+  color: #330000;
+  text-decoration: none;
+
+}
+
+.indexHeaderBox :hover {
+color: #00CED1;
+}
+
+.logo {
+  margin-left: 100px;
+  float: left;
+  width: 70%;
+  height: 70%;
+}
+
 .containor {
-  display: flex;
-  flex-direction: column;
+  display: inline;
+  flex-direction: none;
   min-height: 50px;
-  align-items: center;
+}
+.generalNavigation {
+  overflow: hidden;
 }
 
 body div.container {
@@ -45,38 +81,6 @@ body div.container {
 .index-body{
   background-image: url("../image/main-bg.jpg");
 }
-
-.indexHeaderBox {
-  margin-top: 70px;
-}
-
-.indexHeaderBox ul li {
-  float: left;
-  width: 250px;
-  height: 70px;
-  text-align: right;
-  padding-right: 1em;
-}
-
-.indexHeaderBox ul li {
-list-style-type: none;
-font-size: 1.5em;
-}
-
-a {
-  color: #330000;
-  text-decoration: none;
-
-}
-
-.indexHeaderBox :hover {
-color: #00CED1;
-}
-
-.logo {
-  margin-left: 100px;
-  float: left;
-  }
 
 .indexBox {
   text-align: center;
@@ -112,9 +116,12 @@ color: #00CED1;
 }
 
 .main-box {
+  background: #fcc;
   margin-bottom: 10px;
 }
-
+.side-box {
+  background: #fea;
+}
 .main-box,
 .side-box {
   padding: 2%;
@@ -141,7 +148,7 @@ color: #00CED1;
   border-radius: 50%;
   text-align:center;
   line-height: 1em;
-  color: #ffffff;
+    color: #ffffff;
  }
 
 .date {
@@ -181,11 +188,4 @@ time{
 
 .main-box{
   display: flex;
-}
-.side-menu {
-  border-bottom: solid 2px #00CED1 ;
-}
-.side-list li {
-  list-style: none;
-  border-bottom: solid 1px #D3D3D3;
 }
