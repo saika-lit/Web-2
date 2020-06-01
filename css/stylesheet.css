@@ -15,9 +15,8 @@ body {
 }
 
 .logo {
-  width: 70%;
-  height: 70%;
-  text-align: left;
+  width: 80%;
+  height: 80%;
 }
 
 .indexHeaderBox {
@@ -54,6 +53,7 @@ a {
 .container {
   flex-direction: none;
   min-height: 50px;
+  margin: auto;
 }
 
 body div.container {
