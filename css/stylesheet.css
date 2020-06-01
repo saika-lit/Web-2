@@ -14,6 +14,7 @@ body {
     height: 100vh;
 }
 
+<<<<<<< HEAD
 .logo {
   width: 70%;
   height: 70%;
@@ -23,23 +24,37 @@ body {
 .indexHeaderBox {
   margin-top: 50px;
   display: flex;
+=======
+.indexHeaderBox {
+  margin-top: 60px;
+>>>>>>> 74e0a90803580582e56803d95545a9e88cb528e9
 }
 
 .indexHeaderBox ul li {
   float: left;
   width: 75px;
   height: 70px;
+<<<<<<< HEAD
+=======
+  text-align: left;
+>>>>>>> 74e0a90803580582e56803d95545a9e88cb528e9
   padding-right: 1em;
 }
 
 .indexHeaderBox ul li {
+<<<<<<< HEAD
   list-style-type: none;
   font-size: 1.5em;
+=======
+list-style-type: none;
+font-size: 1.5em;
+>>>>>>> 74e0a90803580582e56803d95545a9e88cb528e9
 }
 
 a {
   color: #330000;
   text-decoration: none;
+<<<<<<< HEAD
 }
 
 .indexHeaderBox :hover {
@@ -54,6 +69,29 @@ a {
 .container {
   flex-direction: none;
   min-height: 50px;
+=======
+
+}
+
+.indexHeaderBox :hover {
+color: #00CED1;
+}
+
+.logo {
+  margin-left: 100px;
+  float: left;
+  width: 70%;
+  height: 70%;
+}
+
+.containor {
+  display: inline;
+  flex-direction: none;
+  min-height: 50px;
+}
+.generalNavigation {
+  overflow: hidden;
+>>>>>>> 74e0a90803580582e56803d95545a9e88cb528e9
 }
 
 body div.container {
