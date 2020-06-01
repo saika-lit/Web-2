@@ -14,54 +14,52 @@ body {
     height: 100vh;
 }
 
+.logo {
+  width: 70%;
+  height: 70%;
+  text-align: left;
+}
+
 .indexHeaderBox {
-  margin-top: 60px;
+  margin-top: 50px;
+  display: flex;
 }
 
 .indexHeaderBox ul li {
   float: left;
   width: 75px;
   height: 70px;
-  text-align: left;
   padding-right: 1em;
 }
 
 .indexHeaderBox ul li {
-list-style-type: none;
-font-size: 1.5em;
+  list-style-type: none;
+  font-size: 1.5em;
 }
 
 a {
   color: #330000;
   text-decoration: none;
-
 }
 
 .indexHeaderBox :hover {
-color: #00CED1;
+  color: #00CED1;
 }
 
-.logo {
-  margin-left: 100px;
-  float: left;
-  width: 70%;
-  height: 70%;
-}
-
-.containor {
-  display: inline;
-  flex-direction: none;
-  min-height: 50px;
-}
 .generalNavigation {
   overflow: hidden;
+  display: flex;
+}
+
+.container {
+  flex-direction: none;
+  min-height: 50px;
 }
 
 body div.container {
   display: flex;
   flex-direction: column;
   min-height: auto;
-  align-items: left;
 }
 
 .wrapper {
