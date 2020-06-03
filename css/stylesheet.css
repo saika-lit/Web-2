@@ -14,11 +14,14 @@ body {
     height: 100vh;
 }
 
+<<<<<<< HEAD
 .page-title {
   font-size: 2em;
   text-align: center;
 }
 
+=======
+>>>>>>> 3c5ce84030880d88f9a4690e95328e624c3724e0
 .logo {
   width: 80%;
   height: 80%;
@@ -44,12 +47,25 @@ body {
 .nav-link {
   color: #330000;
   text-decoration: none;
+<<<<<<< HEAD
+=======
+}
+
+.indexHeaderBox :hover {
+  color: #00CED1;
+}
+
+.generalNavigation {
+  overflow: hidden;
+  display: flex;
+>>>>>>> 3c5ce84030880d88f9a4690e95328e624c3724e0
 }
 
 .container {
   flex-direction: none;
   min-height: 50px;
   margin: auto;
+<<<<<<< HEAD
   overflow: hidden;
   display: flex;
   margin: auto;
@@ -57,6 +73,8 @@ body {
 
 .container :hover {
   color: #00CED1;
+=======
+>>>>>>> 3c5ce84030880d88f9a4690e95328e624c3724e0
 }
 
 body div.container {
