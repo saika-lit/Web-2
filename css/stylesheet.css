@@ -14,14 +14,6 @@ body {
     height: 100vh;
 }
 
-<<<<<<< HEAD
-.page-title {
-  font-size: 2em;
-  text-align: center;
-}
-
-=======
->>>>>>> 3c5ce84030880d88f9a4690e95328e624c3724e0
 .logo {
   width: 80%;
   height: 80%;
@@ -30,6 +22,7 @@ body {
 .indexHeaderBox {
   margin-top: 50px;
   display: flex;
+  position: relative;
 }
 
 .indexHeaderBox ul li {
@@ -44,43 +37,33 @@ body {
   font-size: 1.5em;
 }
 
-.nav-link {
+.container {
   color: #330000;
   text-decoration: none;
-<<<<<<< HEAD
-=======
+  flex-direction: none;
+  min-height: 50px;
+  margin: auto;
 }
 
-.indexHeaderBox :hover {
+.container :hover {
   color: #00CED1;
 }
 
 .generalNavigation {
   overflow: hidden;
   display: flex;
->>>>>>> 3c5ce84030880d88f9a4690e95328e624c3724e0
-}
-
-.container {
-  flex-direction: none;
-  min-height: 50px;
-  margin: auto;
-<<<<<<< HEAD
-  overflow: hidden;
-  display: flex;
-  margin: auto;
-}
-
-.container :hover {
-  color: #00CED1;
-=======
->>>>>>> 3c5ce84030880d88f9a4690e95328e624c3724e0
 }
 
 body div.container {
   display: flex;
   flex-direction: column;
   min-height: auto;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2em;
+  position: absolutez;
 }
 
 .wrapper {
@@ -217,4 +200,5 @@ time{
 .flexbox {
   margin: 120px;
 }
+
 
