@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/*基本設定*/
 html {
     font-size: 100%;
 }
@@ -14,77 +14,77 @@ body {
     height: 100vh;
 }
 
+/*ヘッダー*/
+
 .logo {
-  width: 80%;
-  height: 80%;
+    width: 50%;
+    height: 50%;
 }
 
-.indexHeaderBox {
+.index-header-box {
   margin-top: 50px;
-  display: flex;
-  position: relative;
+    display: flex;
+    position: relative;
+}
+.index-header-box ul li {
+    float: left;
+    width: 70px;
+    height: 70px;
 }
 
-.indexHeaderBox ul li {
-  float: left;
-  width: 75px;
-  height: 70px;
-  padding-right: 1em;
+.index-header-box ul li {
+    list-style-type: none;
+    font-size: 1.5em;
 }
 
-.indexHeaderBox ul li {
-  list-style-type: none;
-  font-size: 1.5em;
+a {
+    color: #330000;
+    text-decoration: none;
+    flex-direction: none;
+    min-height: 50px;
 }
 
-.container {
-  color: #330000;
-  text-decoration: none;
-  flex-direction: none;
-  min-height: 50px;
-  margin: auto;
-}
-
-.container :hover {
-  color: #00CED1;
-}
-
-.generalNavigation {
-  overflow: hidden;
-  display: flex;
-}
-
-body div.container {
-  display: flex;
-  flex-direction: column;
-  min-height: auto;
+a:hover {
+    color: #00CED1;
 }
 
 .page-title {
-  text-align: center;
-  font-size: 2em;
-  position: absolutez;
+    text-align: center;
+    font-size: 2em;
+    margin: auto;
 }
+
+/*ボディ*/
+
+body div.container {
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+}
+
+/*フッター*/
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.footer {
-  width: 100%;
-  background-color: #330000;
-  color: #ffffff;
-  text-align: center;
-  margin-top: auto;
+  .footer {
+    width: 100%;
+    background-color: #330000;
+    color: #ffffff;
+    text-align: center;
+    margin-top: auto;
 }
+
+/*index*/
 
 .index-body{
   background-image: url("../image/main-bg.jpg");
 }
 
-.indexBox {
+.index-box {
   text-align: center;
 }
 
@@ -117,10 +117,15 @@ body div.container {
   border-radius: 5px;
 }
 
+/*news*/
+
 .news-body {
   background-image: url(../image/news-bg.jpg);
   position: absolute; top: 100;
+  background-size: cover;
 }
+
+
 
 .main-box {
   background: #fcc;
@@ -136,7 +141,7 @@ body div.container {
 }
 
 @media ( min-width : 600px ){
-    .flexbox {
+    .content-center {
       display: -webkit-flex;
       display: flex;
     }
@@ -145,7 +150,7 @@ body div.container {
   }
 }
 
-.updateTime {
+.update-time {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -197,8 +202,6 @@ time{
   display: flex;
 }
 
-.flexbox {
+.content-center {
   margin: 120px;
 }
-
-
