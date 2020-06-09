@@ -51,7 +51,6 @@ a:hover {
 .page-title {
     text-align: center;
     font-size: 2em;
-    margin: auto;
 }
 
 /*ボディ*/
@@ -59,7 +58,6 @@ a:hover {
 body div.container {
     display: flex;
     flex-direction: column;
-    min-height: auto;
 }
 
 /*フッター*/
@@ -122,10 +120,7 @@ body div.container {
 .news-body {
   background-image: url(../image/news-bg.jpg);
   position: absolute; top: 100;
-  background-size: cover;
 }
-
-
 
 .main-box {
   background: #fcc;
@@ -200,8 +195,4 @@ time{
 
 .main-box{
   display: flex;
-}
-
-.content-center {
-  margin: 120px;
 }
