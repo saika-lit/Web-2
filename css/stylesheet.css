@@ -30,7 +30,7 @@ body {
 }
 
 .general-navigatiojn{
-  align-items: center;
+  display: inline;
 }
 
 .logo {
@@ -39,7 +39,7 @@ body {
 }
 
 .container{
-  display: flex;
+  display: inline;
 }
 
 body div.container {
@@ -50,7 +50,6 @@ a {
     color: #330000;
     text-decoration: none;
     min-height: 50px;
-    display: flex;
 }
 
 a:hover {
