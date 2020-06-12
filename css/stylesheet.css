@@ -20,7 +20,7 @@ body {
   margin-top: 50px;
 }
 .index-header-box ul li {
-  width: 70px;
+  width: 150px;
   height: 70px;
 }
 
@@ -29,21 +29,27 @@ body {
   font-size: 1.5em;
 }
 
-.general-navigatiojn{
-  display: inline;
+.general-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
     width: 50%;
     height: 50%;
-}
-
-.container{
-  display: inline;
+    display: flex;
+    justify-items: center;
 }
 
 body div.container {
   flex-direction: column;
+}
+
+.header-ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0 30px 0 0;
 }
 
 a {
