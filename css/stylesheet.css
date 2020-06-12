@@ -3,7 +3,7 @@
 html {
     font-size: 100%;
 }
-
+/*ボディ*/
 body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-family: 'Baloo Thambi 2', cursive;
@@ -16,32 +16,41 @@ body {
 
 /*ヘッダー*/
 
+.index-header-box {
+  margin-top: 50px;
+}
+.index-header-box ul li {
+  width: 70px;
+  height: 70px;
+}
+
+.index-header-box ul li {
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+.general-navigatiojn{
+  align-items: center;
+}
+
 .logo {
     width: 50%;
     height: 50%;
 }
 
-.index-header-box {
-  margin-top: 50px;
-    display: flex;
-    position: relative;
-}
-.index-header-box ul li {
-    float: left;
-    width: 70px;
-    height: 70px;
+.container{
+  display: flex;
 }
 
-.index-header-box ul li {
-    list-style-type: none;
-    font-size: 1.5em;
+body div.container {
+  flex-direction: column;
 }
 
 a {
     color: #330000;
     text-decoration: none;
-    flex-direction: none;
     min-height: 50px;
+    display: flex;
 }
 
 a:hover {
@@ -51,13 +60,9 @@ a:hover {
 .page-title {
     text-align: center;
     font-size: 2em;
-}
-
-/*ボディ*/
-
-body div.container {
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 150px;
+    height: 40px;
+    width: 100%;
 }
 
 /*フッター*/
