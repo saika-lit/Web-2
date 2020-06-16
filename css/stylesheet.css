@@ -129,15 +129,16 @@ a:hover {
 
 .news-body {
   background-image: url(../image/news-bg.jpg);
-  position: absolute; top: 100;
+  object-fit: cover;
+  height: 10px;
+  width: 100%;
 }
 
 .main-box {
-  background: #fcc;
-  margin-bottom: 10px;
+  margin: 30px;
 }
 .side-box {
-  background: #fea;
+  margin: 30px;
 }
 .main-box,
 .side-box {
@@ -205,4 +206,18 @@ time{
 
 .main-box{
   display: flex;
+}
+
+.side-list {
+  list-style: none;
+}
+
+.side-menu {
+  text-decoration: underline #00CED1;
+  margin: 10 0 10 0;
+}
+
+.side-contents {
+  text-decoration: underline gray;
+  margin-bottom: 30px;
 }
