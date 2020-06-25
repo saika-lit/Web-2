@@ -234,7 +234,8 @@ time{
 }
 
 .image-container {
-  margin: 50px 100px 0;
+  margin: 50px 200px 0;
+  /* マージンの設定は時計回り */
   display: grid;
   gap: 50px;
   grid-template-columns: repeat(3,1fr);
@@ -255,8 +256,4 @@ time{
   height: auto;
 }
 
-.image-caption {
-  font-size: 1px;
-  text-align: left;
-  margin: 0px;
-}
+
