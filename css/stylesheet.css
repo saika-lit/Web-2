@@ -33,11 +33,14 @@ body {
 }
 
 .logo {
-    width: 50%;
-    height: 50%;
-    margin-top: 30px;
+    margin: 30px 200px 0;
     display: flex;
     justify-items: center;
+}
+
+.logo-img {
+  width: 70%;
+  height: auto;
 }
 
 body div.container {
@@ -47,7 +50,7 @@ body div.container {
 .header-ul {
   display: flex;
   flex-direction: row;
-  margin: 30px 30px 0 0;
+  margin: 40px 100px 0;
 }
 
 a {
@@ -256,4 +259,57 @@ time{
   height: auto;
 }
 
+/* Contact */
+.contact-page-title {
+  text-align: start;
+  font-size: 2em;
+  margin: 0 200px 0;
+}
 
+.contact-body {
+  background: rgba(255, 255, 255, .5) url(../image/contact-bg.jpg);
+  height: 600px;
+  width: 100%;
+  background-blend-mode: screen;
+  background-size: cover;
+}
+
+.contact-form {
+  margin: 0 200px 0;
+}
+
+.form-text-box {
+  display: grid;
+  gap: 5px;
+  background-color: white;
+  opacity: 0.6;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.form-text-box-big {
+  display: grid;
+  gap: 5px;
+  background-color: white;
+  opacity: 0.6;
+  width: 450px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.contact-details {
+  display: flex;
+}
+
+.shop-address {
+  display: flex;
+}
+
+.shop-name {
+  display: block;
+}
+
+.contact-map {
+  display: flex;
+}
