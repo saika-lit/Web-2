@@ -210,8 +210,11 @@ time{
 }
 
 .side-menu {
-  text-decoration: underline #00CED1;
-  margin: 10 0 10 0;
+  width: 10em;
+  text-decoration: none;
+  border-bottom: 2px solid #00CED1;
+  padding-bottom: 2px;
+  margin: 10px 0 10px 0;
 }
 
 .side-contents {
@@ -300,16 +303,78 @@ time{
 
 .contact-details {
   display: flex;
+  justify-content: center;
+  margin: 50px;
 }
 
 .shop-address {
-  display: flex;
+  margin: 0 10px;
 }
 
 .shop-name {
-  display: block;
+  width: 12em;
+  text-decoration: none;
+  border-bottom: 2px solid #00CED1;
+  padding-bottom: 2px;
+  margin: 10px 0 10px 0;
 }
 
 .contact-map {
   display: flex;
+}
+
+.media-links {
+  display: flex;
+  background-color: #FFDBC9;
+  margin: auto 0;
+  justify-content: center;
+}
+
+.facebook-url {
+  margin: 50px 30px;
+}
+
+.facebook {
+  width: auto;
+  text-decoration: none;
+  border-bottom: 2px solid #00CED1;
+  padding-bottom: 2px;
+  margin: 10px auto;
+}
+
+.twitter-url {
+  margin: 50px 30px;
+}
+
+.twitter {
+  width: auto;
+  text-decoration: none;
+  border-bottom: 2px solid #00CED1;
+  padding-bottom: 2px;
+  margin: 10px auto;
+}
+
+.youtube-url {
+  margin: 50px 30px;
+}
+
+.youtube{
+  width: auto;
+  text-decoration: none;
+  border-bottom: 2px solid #00CED1;
+  padding-bottom: 2px;
+  margin: 10px auto;
+}
+/* contactフッタ */
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-footer {
+  width: 100%;
+  background-color: #330000;
+  color: #ffffff;
+  text-align: center;
 }
