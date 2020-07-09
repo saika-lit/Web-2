@@ -19,11 +19,17 @@ body {
 .index-header-box ul li {
   width: 150px;
   height: 70px;
-}
-
-.index-header-box ul li {
   list-style-type: none;
   font-size: 1.5em;
+}
+
+@media ( min-width : 375px) {
+  .index-header-box ul li {
+  width: 150px;
+  height: 70px;
+  list-style-type: none;
+  font-size: 1.5em;
+  }
 }
 
 .general-navigation {
@@ -32,15 +38,34 @@ body {
   align-items: center;
 }
 
+@media ( min-width : 375px) {
+  .general-navigation {
+    justify-content: center;
+  }
+}
+
 .logo {
     margin: 30px 200px 0;
     display: flex;
     justify-items: center;
 }
 
+@media ( min-width : 375px) {
+  .logo {
+    justify-content: center;
+  }
+}
+
 .logo-img {
   width: 70%;
   height: auto;
+}
+
+@media (min-width : 375px) {
+  .logo-img {
+    width: 70%;
+    height: auto;
+  }
 }
 
 body div.container {
@@ -51,6 +76,11 @@ body div.container {
   display: flex;
   flex-direction: row;
   margin: 40px 100px 0;
+}
+
+@media (min-width : 375px) {
+  .header-ul {
+  }
 }
 
 a {
@@ -92,8 +122,20 @@ a:hover {
   background-image: url("../image/main-bg.jpg");
 }
 
+@media (min-width : 375px) {
+  .index-body {
+    background-image: url("../image/main-bg.jpg");
+  }
+}
+
 .index-box {
   text-align: center;
+}
+
+@media (min-width : 375px) {
+  .index-box {
+    text-align: center;
+  }
 }
 
 .main-title {
@@ -104,10 +146,20 @@ a:hover {
   display: table;
 }
 
+@media ( min-width : 375px) {
+  .main-title {
+    text-align: center;
+  }
+}
+
 .main-text {
   text-align: center;
-
 }
+
+@media ( min-width : 375px) {
+  .main-text {
+    text-align: center;
+  }
 
 .index-button {
   text-align: center;
@@ -148,7 +200,7 @@ a:hover {
   border-radius: 10px
 }
 
-@media ( min-width : 600px ){
+@media ( min-width : 375px ){
     .content-center {
       display: -webkit-flex;
       display: flex;
