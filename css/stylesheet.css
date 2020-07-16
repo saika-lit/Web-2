@@ -530,10 +530,11 @@ a:hover {
   }
 
   .media-links {
-    display: inline;
     flex-direction: column;
     align-items: center;
     margin: 0;
+    background-color: #FFDBC9;
+    width: 375px;
   }
 
   .facebook-url {
