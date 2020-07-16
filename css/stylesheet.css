@@ -29,7 +29,6 @@ body {
   height: 70px;
   list-style-type: none;
   font-size: 1.5em;
-
   }
 }
 
@@ -55,6 +54,7 @@ body {
 @media (max-width : 375px) {
   .logo {
     justify-content: center;
+    margin: 10px;
   }
 }
 
@@ -65,7 +65,7 @@ body {
 
 @media (max-width : 375px) {
   .logo-img {
-    width: 375px;
+    width: 355px;
     height: auto;
     text-align: center;
   }
@@ -140,14 +140,6 @@ a:hover {
   background-image: url("../image/main-bg.jpg");
 }
 
-@media (max-width : 375px) {
-  .index-body {
-    background-image: url("../image/main-bg.jpg");
-    width: 375px;
-    height: 667px;
-  }
-}
-
 .index-box {
   text-align: center;
 }
@@ -158,14 +150,6 @@ a:hover {
   margin-top: 100px;
   width: 100%;
   display: table;
-}
-
-@media (max-width : 375px) {
-  .main-title {
-    text-align: center;
-    font-size: 40px;
-    margin-top: 50px;
-  }
 }
 
 .main-text {
@@ -190,6 +174,19 @@ a:hover {
   margin-top: 40px;
 }
 
+@media (max-width : 375px) {
+  .index-body {
+    background-image: url("../image/main-bg.jpg");
+    width: 375px;
+    height: 667px;
+  }
+  .main-title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+  }
+}
+
 /*news*/
 
 .news-body {
@@ -199,23 +196,9 @@ a:hover {
   width: 100%;
 }
 
-@media (max-width : 375px){
-  .news-body{
-    width: 375px;
-    height: 300px;
-    justify-content: center;
-  }
-}
-
 .main-box {
   margin: 100px;
   display: flex;
-}
-
-@media (max-width : 375px) {
-  .main-box {
-    margin: auto;
-  }
 }
 
 .side-box {
@@ -226,30 +209,15 @@ a:hover {
 .side-box {
   padding: 2%;
   border-radius: 10px
-  display: -webkit-flex;
+  display: flex;
 }
 
 .content-center {
   display: flex;
 }
 
-@media ( max-width : 375px ){
-  .content-center {
-    /* display: flex; */
-    }
-  .main-box {
-    margin: 0 10px 0 0;
-  }
-}
-
 .update-info {
   display: flex;
-}
-
-@media ( min-width : 375px ){
-  .update-time {
-    display: inline;
-  }
 }
 
 .update-time {
@@ -280,13 +248,6 @@ a:hover {
   object-fit: cover;
 }
 
-@media ( min-width : 375px ) {
-  .news-bg {
-    height: 50px;
-    background-position: center;
-  }
-}
-
 .news-top{
   font-size: 100px;
   text-align: center;
@@ -298,12 +259,6 @@ a:hover {
   display: flex;
 }
 
-@media ( min-width : 375px ) {
-  .news-main {
-    margin: 20px;
-  }
-}
-
 .category {
   margin-left: 100px;
   margin-bottom: 20px;
@@ -312,14 +267,6 @@ a:hover {
 .news-wall {
   height: 70%;
   width: 70%;
-}
-
-@media ( min-width : 375px ) {
-  .news-wall {
-    height: auto;
-    width: 365px;
-    margin: 10px;
-  }
 }
 
 .side-list {
@@ -337,6 +284,54 @@ a:hover {
 .side-contents {
   text-decoration: underline gray;
   margin-bottom: 30px;
+}
+
+@media (max-width : 375px){
+  .news-body{
+    width: 375px;
+    height: 350px;
+    justify-content: center;
+  }
+
+  .main-box {
+    margin: auto;
+  }
+
+  .main-box {
+    margin: 0 10px 0 0;
+  }
+
+  .side-box {
+    margin: 0;
+  }
+
+  .news-bg {
+    height: 50px;
+    background-position: center;
+  }
+
+  .news-main {
+    margin: 20px;
+  }
+
+  .news-wall {
+    height: auto;
+    width: 355px;
+  }
+
+  .content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .side-menu {
+    text-align: left;
+  }
+
+  .side-contents{
+    text-align: left;
+  }
 }
 
 /*Menu*/
@@ -377,6 +372,18 @@ a:hover {
 .menu-image {
   width: 100%;
   height: auto;
+}
+
+@media (max-width : 375px){
+  .menu-image {
+    height: auto;
+    width: 365px;
+  }
+  .image-container {
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* Contact */
@@ -494,4 +501,50 @@ a:hover {
   background-color: #330000;
   color: #ffffff;
   text-align: center;
+}
+
+@media (max-width : 375px){
+  .contact-body {
+    height: 700px;
+  }
+  .contact-page-title {
+    align-items: center;
+    margin: 0;
+  }
+  .contact-form {
+    align-items: center;
+    width: 365px;
+    margin: 10px;
+  }
+  .form-text-box-big {
+    width: 355px;
+  }
+  .contact-details {
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+  }
+  .google-map {
+    width: 365px;
+    margin: 5px;
+  }
+
+  .media-links {
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .facebook-url {
+    margin: 10px;
+  }
+
+  .twitter-url {
+    margin: 10px;
+  }
+
+  .youtube-url {
+    margin: 10px;
+  }
 }
